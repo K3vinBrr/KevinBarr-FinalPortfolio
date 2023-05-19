@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page 5 Kevin Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;1,800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="mainsite">
+            <div class="content">
+        <h1>All about me: A Journey through my life.</h1>
+        <h2>Image Collage from my time in photography</h2>
+        <ul class="navbar">
+            <li class="float"><a href="index.html">About Me</a></li>
+            <li class="float"><a href="page2.html">Coding</a> </li>
+            <li class="float"><a href="page3.html">Video Games</a> </li>
+            <li class="float"><a href="page4.html">Photography</a> </li>
+            <li class="float"><a href="page5.html" class="current">Photos</a> </li>
+        </ul>
+                <div class="text">
+                   <p id="name"> </p>
+                </div>
+                <div class="images">
+                    <img src="SurfDuck.JPG" alt="My favorite image oout of any image, and its of a plastic duck holding a surfboard" width="350" height="250"> 
+                    <img src="Lighting.jpg" alt="Peter doing a shutter speed trick to make it look like rings of light" width="350" height="250"> 
+                    <img src="Me.JPG" alt="Me but its super dark and I look like a shadow" width="350" height="250"> 
+                </div>
+                <div class="images">
+                    <img src="BetterCarPeter.JPG" alt="Peter standing in between some cars" width="450" height="250"> 
+                    <img src="PeterWeird.JPG" alt="Peter making a really weird looking face" width="350" height="250">
+                    <img src="Harrison.JPG" alt="Harrison" width="200" height="250"> 
+                </div>
+            </div>
+        </div>
+         <script>
+   person = prompt("Please enter your name");
+  if (person != null) {
+    document.getElementById("name").innerHTML = "Here's an image dump of what I had done throughout my time during photography, while its not super diverse I thought that it would still be good to put it out there for a bit and see how it looks on a site. And thank you " + person + " for either skipping to the end or reading.";
+}
+</script>
+    </body>
+</html>
